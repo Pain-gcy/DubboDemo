@@ -10,6 +10,7 @@ import java.util.List;
  * @create on  2018-06-06 9:32
  */
 public class DemoServiceImpl implements DemoService {
+
     @Override
     public List<String> getPermissions(Long id) {
             List<String> demo = new ArrayList<String>();
