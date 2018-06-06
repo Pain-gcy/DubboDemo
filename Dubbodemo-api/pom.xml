@@ -11,7 +11,6 @@
 
     <groupId>Dubbodemo</groupId>
     <artifactId>Dubbodemo-api</artifactId>
-    <packaging>war</packaging>
     <name>DubboDemo-api</name>
     <url>http://maven.apache.org</url>
 

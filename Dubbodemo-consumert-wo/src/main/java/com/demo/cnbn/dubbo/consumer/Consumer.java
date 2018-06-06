@@ -3,6 +3,7 @@ package com.demo.cnbn.dubbo.consumer;
 import com.demo.cnbn.dubbo.api.DemoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+
 public class Consumer {
     public static void main(String[] args) {
         //测试常规服务
