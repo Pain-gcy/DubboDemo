@@ -14,8 +14,6 @@
         <module>Dubbodemo-consumer-one</module>
         <module>Dubbodemo-consumert-wo</module>
     </modules>
-
-
     <name>DubboDemo Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <properties>
