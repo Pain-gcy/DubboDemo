@@ -1,6 +1,7 @@
 package com.demo.cnbn.dubbo.consumer;
 
 import com.demo.cnbn.dubbo.api.DemoService;
+import com.demo.cnbn.dubbo.api.DubboDemoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Consumer {
@@ -13,5 +14,10 @@ public class Consumer {
         DemoService demoService = context.getBean(DemoService.class);
         System.out.println("consumer");
         System.out.println(demoService.getPermissions(1L));
+
+
+        DubboDemoService bean = context.getBean(DubboDemoService.class);
+        System.out.println("consumer111");
+        System.out.println(bean.getString());
     }
 }
